@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> include <stdlib.h>
 /**
  * main - main block
  * Description: Write a program that prints all possible
@@ -8,23 +7,19 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e;
-	int f = 0;
+int c;
+int d;
+int e;
+int f = 0;
 
-while (f < 10)
-{
+while (f < 10) {
 	e = 0;
-
 	while (e < 10)
 	{
 		d = 0;
-
 		while (d < 10)
 		{
 			c = 0;
-
 			while (c < 10)
 			{
 				if (!(f == c && e == d))
