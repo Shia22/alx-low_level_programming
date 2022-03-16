@@ -7,7 +7,6 @@ int main(void)
 {
   char c[] = "_putchar";
   int i=0;
-
   while (i < sizeof(c))
     {
      putchar(c[i]);
