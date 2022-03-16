@@ -1,17 +1,16 @@
 #include "main.h"
 /**
- * main- Entry
+ * main - prints _put
  *
- * Return: 0
+ * Return: 0 (Success)
  */
+
 int main(void) {
-	char word[9] = "_putchar";
-	int i = 0
-	while (i < 8)
+	char *ch = "_putchar";
+	while (*ch)
 	{
-		_putchar(word[i]);
-		i++;
+		_putchar(*ch);
+		ch++;
 	}
-	_putchar('\n');
-	return (0);
+	_putchar('\n'); return (0);
 }
