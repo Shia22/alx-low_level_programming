@@ -1,22 +1,17 @@
-/*
- * program to print _putchar
- */
 #include "main.h"
 /**
- * main - program to print putchar
+ * main- Entry
  *
- * Return: on error return -1 else 0 (success)
+ * Return: 0
  */
-int main(void)
-{
-	char msg[] = "_putchar";
-	int a;
-
-	for (a = 0; a <= 7; a++)
+int main(void) {
+	char word[9] = "_putchar";
+	int i = 0
+	while (i < 8)
 	{
-		_putchar(msg[a]);
-		if (a == 7)
-			_putchar('\n');
+		_putchar(word[i]);
+		i++;
 	}
+	_putchar('\n');
 	return (0);
 }
